@@ -1,3 +1,4 @@
+# Pull base image
 FROM python:3.7.2-alpine3.9
 
 LABEL description="Linux Alpine with Ansible and SSH."
@@ -18,4 +19,5 @@ RUN pip install --no-cache-dir \
 
 RUN apk del build-dependencies
 
+# Default command: display Ansible version
 CMD [ "ansible-playbook", "--version" ]
