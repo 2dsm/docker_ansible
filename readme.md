@@ -16,4 +16,4 @@ docker run --rm -v $(pwd):/root dsmaia/docker_ansible ansible-playbook -i /root/
 ```
 
 ### For Windows environments
-Follow the instructions in winRequirements.
+Follow the instructions in [winRequirements](https://github.com/2dsm/docker_ansible/tree/master/winRequirements).
